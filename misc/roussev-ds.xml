@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+  <xa-datasource>
+    <jndi-name>RoussevDS</jndi-name>    
+    <track-connection-by-tx/>    
+    <xa-datasource-class>com.mysql.jdbc.jdbc2.optional.MysqlXADataSource</xa-datasource-class>    
+    <xa-datasource-property name="URL">jdbc:mysql://localhost:3306/ejb3-maven?zeroDateTimeBehavior=convertToNull</xa-datasource-property>     
+    <user-name>root</user-name>    
+    <password>--the password--</password>
+    <exception-sorter-class-name>org.jboss.resource.adapter.jdbc.vendor.MySQLExceptionSorter</exception-sorter-class-name>    
+    <metadata>
+       <type-mapping>mySQL</type-mapping>
+    </metadata>    
+  </xa-datasource>  
+</datasources>
