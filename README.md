@@ -147,4 +147,3 @@ cp ./ejb3-maven/misc/jboss-log4j.xml  $JBOSS_HOME/server/default/conf/jboss-log4
 
 #__9__ Access the web applciation at http://localhost:8080/ejb3-maven/user
 cp ./ejb3-maven/misc/jboss-log4j.xml  $JBOSS_HOME/server/default/conf/jboss-log4j.xml
-
