@@ -3,7 +3,7 @@ ejb3-maven
 
 EJB3-Maven is a quick start J2EE project helping with initial EJB3 scaffolding, out-of-container Unit testing and smartly building all artifacts using Maven
 
-This is a sample project generating all the artifacts helping to get started quickly with the initial J2EE scaffolding. Driving force for EJB3-Maven is that building J2EE project should be extremely simple, straightforward and should hide all the J2EE JAR dependencies. 
+The project generates all the artifacts helping to get started quickly with the initial J2EE scaffolding, hiding all J2EE JAR dependencies
 
 It consist of three sub-projects:
 
